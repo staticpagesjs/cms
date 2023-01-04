@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Simple example</title>
+	<link rel="stylesheet" href="../dist/cms.iife.css">
+</head>
+<body>
+	<script crossorigin src="https://unpkg.com/react@^18/umd/react.development.js"></script>
+	<script crossorigin src="https://unpkg.com/react-dom@^18/umd/react-dom.development.js"></script>
+	<script src="../dist/cms.iife.js"></script>
+	<script>
+		var opts = {
+			backends: 'TODO:gitlab-fs',
+			apps: {
+				filebrowser: {
+
+				}
+			}
+		};
+		var CMSInstance = React.createElement(CMS, opts);
+		var rootNode = document.createElement('div');
+		document.body.appendChild(rootNode);
+		var root = ReactDOM.createRoot(rootNode);
+		root.render(React.createElement(React.StrictMode, null, app));
+	</script>
+</body>
+</html>

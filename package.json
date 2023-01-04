@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "@static-pages/cms",
+  "version": "0.0.0",
+  "description": "GIT based content management system.",
+  "keywords": [],
+  "author": "László BULIK",
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/staticpagesjs/cms#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staticpagesjs/cms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/staticpagesjs/cms/issues"
+  },
+  "scripts": {
+    "start": "node scripts/build.js --watch",
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "@fal-works/esbuild-plugin-global-externals": "^2.1.2",
+    "@types/react": "^18.0.26",
+    "esbuild": "^0.16.16",
+    "esbuild-plugin-svg": "^0.1.0",
+    "esbuild-sass-plugin": "^2.4.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
