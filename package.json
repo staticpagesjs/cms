@@ -2,7 +2,7 @@
   "private": true,
   "name": "@static-pages/cms",
   "version": "0.0.0",
-  "description": "GIT based content management system.",
+  "description": "A pluginable content management system for the Static Pages toolkit.",
   "keywords": [],
   "author": "László BULIK",
   "license": "MPL-2.0",
